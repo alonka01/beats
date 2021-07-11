@@ -20,7 +20,7 @@ $fontFamilyPlay: 'Play';
 body {
     font-family: 'Alegreya Sans', sans-serif;
     color: $baseColor;
-    // background-color: $grey;
+    background: $grey top, #fff bottom;
     font-size: $fontSize;
 
 }

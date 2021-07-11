@@ -372,15 +372,21 @@ header a {
   padding: 18px 11px;
   border: solid 3px transparent;
 }
+.form__input:focus {
+  border-color: #dee2bd;
+  outline: none;
+}
 
 .form__input-textarea {
   width: 80%;
   min-height: 120px;
+  resize: none;
 }
 
 body {
   font-family: "Alegreya Sans", sans-serif;
   color: #292929;
+  background: #F5F5F5 top, #fff bottom;
   font-size: 18px;
 }
 

@@ -32,9 +32,15 @@
     border:none;
     padding: 18px 11px;
     border: solid 3px transparent;
+
+    &:focus {
+        border-color: #dee2bd;
+        outline: none;
+    }
 }
 
 .form__input-textarea {
     width: 80%;
     min-height: 120px;
+    resize: none;
 }
