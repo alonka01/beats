@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 .hero {
-  background: url("../../img/headphones.png") right 100px center no-repeat;
+  background: url("../img/headphones.png") right 100px center no-repeat;
   height: 100vh;
   min-height: 650px;
 }
