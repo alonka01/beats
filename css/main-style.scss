@@ -13,6 +13,8 @@ $fontFamilyPlay: 'Play';
 @import "components/section";
 @import "components/headline";
 @import "components/benefits";
+@import "components/reviews";
+@import "components/form";
 
 
 body {
@@ -28,6 +30,6 @@ body {
     margin: 0 auto;
 }
 
-ul {
+ul, li, a {
     list-style: none;
 }
