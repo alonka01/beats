@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.menu {
+    margin-left: -50px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link, .phone-number, .btn {
+    text-decoration: $textDecor;
+}
+
+// .menu__item {
+//     list-style: none;
+// }
+
+.menu__link {
+    margin-right: 47px;
+}
+
+.menu__link:last-child {
+    margin-right: 0;
+}
+
+address {
+    display: flex;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+header a {
+    color: $baseColor;
+}

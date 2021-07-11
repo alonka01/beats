@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+.hero {
+  background: url("../../img/headphones.png") right 100px center no-repeat;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.hero__title-section {
+  margin-top: -100px;
+}
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Play";
+  max-width: 400px;
+}
+
+.hero__title-desc {
+  max-width: 322px;
+  font-size: 21px;
+  margin-bottom: 54px;
+}
+
+.hero::after {
+  content: url("../img/rectangle.svg");
+  position: absolute;
+  right: 20%;
+  bottom: 1px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+}
+
+.menu {
+  margin-left: -50px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__link, .phone-number, .btn {
+  text-decoration: none;
+}
+
+.menu__link {
+  margin-right: 47px;
+}
+
+.menu__link:last-child {
+  margin-right: 0;
+}
+
+address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone-number__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 7px;
+}
+
+header a {
+  color: #292929;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+}
+
+.features__item {
+  max-width: 166px;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.features__item:last-child {
+  margin-right: 0;
+}
+
+.feature__icon {
+  margin-right: 12px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #E01F3D;
+  border-radius: 100px;
+  padding: 21px 41px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.headline {
+  font-family: "Play";
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.headline__title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.headline__subtitle {
+  max-width: 590px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 62px;
+  position: relative;
+}
+.benefits:after {
+  content: url("../img/triangle.svg");
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+}
+
+.benefits__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 3%;
+  position: relative;
+  margin-bottom: 100px;
+}
+.benefits__item:last-child::before {
+  display: none;
+}
+
+.benefits__item::before {
+  content: url("../img/decorDots.svg");
+  position: absolute;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  top: 60px;
+  right: 0;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+.benefit__image-wrapper {
+  width: 128px;
+  height: 128px;
+  background-color: #F2F5F4;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #292929;
+  font-size: 18px;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}

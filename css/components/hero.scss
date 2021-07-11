@@ -1,0 +1,42 @@
+.hero {
+    background: url("../../img/headphones.png") right 100px center no-repeat;
+    height: 100vh;
+    min-height: 650px;
+}
+
+// .phone-number::before {
+//     content: url("../../img/phone.png");
+// }
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hero__title-section {
+    margin-top: -100px;
+}
+
+.hero__main-title {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Play';
+    max-width: 400px;
+}
+
+.hero__title-desc {
+    max-width:322px;
+    font-size: 21px;
+    margin-bottom: 54px;
+}
+
+.hero::after {
+    content: url("../img/rectangle.svg");
+    position:absolute;
+    right: 20%;
+    bottom:1px;
+}

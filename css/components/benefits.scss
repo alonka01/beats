@@ -1,0 +1,52 @@
+.benefits {
+    display: flex;
+    margin-top: 62px;
+    position: relative;
+
+    &:after {
+        content: url("../img/triangle.svg");
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+    }
+}
+
+.benefits__item {
+    flex:1;
+    padding: 0 3%;
+    position: relative;
+    margin-bottom: 100px;
+
+    &:last-child::before {
+        display: none;
+    }
+}
+
+.benefits__item::before {
+    content: url("../img/decorDots.svg");
+    position: absolute;
+    transform: translate(50%);
+    top: 60px;
+    right:0;
+}
+
+.benefit {
+    text-align:center;
+}
+
+.benefit__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.benefit__image-wrapper {
+    // display: inline-block;
+    width:128px;
+    height: 128px;
+    background-color: #F2F5F4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}

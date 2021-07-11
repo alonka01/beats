@@ -1,0 +1,21 @@
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 3%;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 128px;
+}
