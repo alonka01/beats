@@ -1,5 +1,5 @@
 .hero {
-    background: url("../img/headphones.png") right 100px center no-repeat;
+    background: #F5F5F5;
     height: 100vh;
     min-height: 650px;
 }
@@ -13,11 +13,12 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    position: relative;
 }
 
-.hero__title-section {
-    margin-top: -100px;
-}
+// .hero__title-section {
+//     margin-top: -100px;
+// }
 
 .hero__main-title {
     font-size: 48px;
@@ -34,9 +35,15 @@
     margin-bottom: 54px;
 }
 
+.hero__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hero::after {
     content: url("../img/rectangle.svg");
     position:absolute;
-    right: 20%;
-    bottom:1px;
+    right: 10%;
+    bottom:-3%;
 }

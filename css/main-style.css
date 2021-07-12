@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 .hero {
-  background: url("../img/headphones.png") right 100px center no-repeat;
+  background: #F5F5F5;
   height: 100vh;
   min-height: 650px;
 }
@@ -18,10 +18,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-}
-
-.hero__title-section {
-  margin-top: -100px;
+  position: relative;
 }
 
 .hero__main-title {
@@ -39,11 +36,23 @@
   margin-bottom: 54px;
 }
 
+.hero__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .hero::after {
   content: url("../img/rectangle.svg");
   position: absolute;
-  right: 20%;
-  bottom: 1px;
+  right: 10%;
+  bottom: -3%;
 }
 
 .header {
@@ -194,6 +203,7 @@ header a {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  color: #000;
 }
 
 .headline__title {
@@ -272,6 +282,14 @@ header a {
           align-items: center;
 }
 
+.benefit__title {
+  font-size: 24px;
+}
+
+.headline__title {
+  color: #000;
+}
+
 .reviews__display {
   background: #F8FAF9;
   padding: 42px 100px 42px 42px;
@@ -290,6 +308,10 @@ header a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: -65px;
+}
+
+.reviews-section .section__title {
+  color: #000;
 }
 
 .reviews__display-inner {
@@ -505,8 +527,13 @@ header a {
   background-color: #E01F3D;
 }
 
-.map-section__img {
-  width: 100%;
+.order-section {
+  background-color: #181818;
+}
+
+.order-section__title {
+  padding-top: 70px;
+  color: #fff;
 }
 
 .footer-container {
@@ -543,6 +570,15 @@ header a {
           justify-content: flex-end;
 }
 
+.social-icon {
+  margin-right: 10px;
+}
+
+.phone-number__text {
+  color: #292929;
+  font-size: 18px;
+}
+
 body {
   font-family: "Alegreya Sans", sans-serif;
   color: #292929;
@@ -550,8 +586,8 @@ body {
   font-size: 18px;
 }
 
-.main {
-  width: 1100px;
+.container {
+  max-width: 1100px;
   margin: 0 auto;
 }
 
