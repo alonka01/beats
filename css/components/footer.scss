@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__icons {
+    justify-content: space-between;
+} 
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}

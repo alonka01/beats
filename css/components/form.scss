@@ -32,6 +32,7 @@
     border:none;
     padding: 18px 11px;
     border: solid 3px transparent;
+    border-radius: 4px;
 
     &:focus {
         border-color: #dee2bd;
@@ -41,6 +42,73 @@
 
 .form__input-textarea {
     width: 80%;
-    min-height: 120px;
+    min-height: 140px;
     resize: none;
+    margin-bottom: 42px;
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    margin-left:29px;
+}
+
+.radio {
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 22px;
+
+    &--checkbox {
+        .radio__visible {
+            border-radius:4px;
+
+            &:before {
+                background: url("../img/tick.svg") center center no-repeat;
+            }
+        }
+
+    }
+}
+
+.radio__elem {
+    display: none;
+
+    &:checked ~ .radio__visible {
+        &::before {
+        display: block;
+    }
+    }
+}
+
+.radio__visible {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+
+    &:before{
+        display: none;
+        content: "";
+        width: 13px;
+        height: 13px;
+        background-color: #E01F3D;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        ;
+    }
+}
+
+.form__row .form__buttons {
+    margin-top: 48px;
+    padding-bottom: 85px;
+}
+
+.radio__title {
+    margin-left: 10px;
 }
